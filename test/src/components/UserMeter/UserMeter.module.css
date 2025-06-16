@@ -1,0 +1,24 @@
+.userMeter {
+    background-color: var(--color-bg-default);
+    border-radius: 10px;
+    display: grid;
+    gap: var(--space-xs);
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, auto);
+    padding: var(--space-m);
+    .title {
+        border-bottom: 1px solid var(--color-bg-border);
+        padding-bottom: var(--space-xs);
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2xs);
+    }
+    .meter {
+        border-bottom: 1px dashed var(--color-bg-border);
+        display: grid;
+        grid-template-columns: 1fr auto;
+        padding: var(--space-3xs) 0;
+    }
+}

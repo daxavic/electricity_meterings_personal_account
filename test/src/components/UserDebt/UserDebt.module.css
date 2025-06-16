@@ -1,0 +1,18 @@
+.userDebt {
+    background-color: var(--color-bg-default);
+    border-radius: 10px;
+    display: grid;
+    gap: var(--space-xs);
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, auto);
+    padding: var(--space-m);
+    .title {
+        border-bottom: 1px solid var(--color-bg-border);
+        padding-bottom: var(--space-xs);
+    }
+    .content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
